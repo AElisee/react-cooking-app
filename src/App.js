@@ -51,7 +51,7 @@ const App = () => {
               <h1>{meal.strMeal}</h1>
               <input
                 type="text"
-                placeholder="Nom du plat (en anglais)"
+                placeholder="Entrer le nom du plat (en anglais)"
                 onChange={(e) => setSearch(e.target.value)}
               />
             </div>

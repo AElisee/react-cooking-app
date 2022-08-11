@@ -7,7 +7,7 @@ const Card = ({ meal }) => {
       <h5>
         origin : <em>{meal.strArea}</em>
       </h5>
-      <img src={meal.strMealThumb} alt={`image of ${meal.strMeal}`} />
+      <img src={meal.strMealThumb} alt={"photo of " + meal.strMeal} />
       <p>{meal.strInstructions}</p>
     </div>
   );
