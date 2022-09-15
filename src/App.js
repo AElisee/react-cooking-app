@@ -4,7 +4,16 @@ import Card from "./components/Card";
 import Footer from "./components/Footer";
 
 const App = () => {
-  let food = ["beef", "tomato", "Chicken", "Potato", "pork", "Fish", "soup"];
+  let food = [
+    "beef",
+    "tomato",
+    "Chicken",
+    "Potato",
+    "pork",
+    "Fish",
+    "soup",
+    "chocolate",
+  ];
   let rand = food[~~(Math.random() * food.length)];
   // let rand = Math.floor(Math.random() * food.length);
 
